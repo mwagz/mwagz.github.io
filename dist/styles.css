@@ -134,3 +134,10 @@ h3, h4, h5, h6 {
 
 p {
   line-height: 20px; }
+
+a {
+  color: #1BB6E9;
+  text-decoration: none;
+  transition: color .3s; }
+  a:hover {
+    color: #1294bf; }
