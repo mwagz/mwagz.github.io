@@ -3,6 +3,7 @@
   background-attachment: fixed;
   background-size: cover;
   height: 90vh;
+  padding-top: 40vh;
   position: relative;
 
   &::before {
@@ -16,17 +17,14 @@
   }
 
   h1, h2 {
-    position: absolute;
+    margin: 0 auto;
+    position: relative;
     text-align: center;
-    transform: translateY(-50%);
-    width: 100%;
+    width: 90%;
+    z-index: 1;
   }
 
   h1 {
-    top: 45%;
-  }
-
-  h2 {
-    top: 50%;
+    margin-bottom: 15px;
   }
 }
