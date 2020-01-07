@@ -56,6 +56,10 @@ section {
       @media (max-width: 400px) {
         text-align: center;
       }
+
+      img {
+        max-width: 100px;
+      }
     }
 
     .content {
@@ -72,6 +76,8 @@ section {
   }
 
   .details {
+    align-content: flex-start;
+    align-items: baseline;
     display: flex;
     flex: .35;
     flex-direction: row;
@@ -86,9 +92,14 @@ section {
     }
 
     li {
+      flex-direction: column;
       flex: .2;
       margin-right: 25px;
       margin-top: 20px;
+    }
+
+    img {
+      max-width: 55px;
     }
   }
 }
